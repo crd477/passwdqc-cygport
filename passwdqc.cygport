@@ -33,16 +33,16 @@ libpasswdqc0_CATEGORY="Libs"
 libpasswdqc0_SUMMARY="password/passphrase strength checking and enforcement library"
 libpasswdqc0_CONTENTS="
 	usr/bin/cygpasswdqc-0.dll
+  etc/passwdqc.conf
+  usr/share/man/man5/*
 "
 
 libpasswdqc_devel_CATEGORY="Libs"
 libpasswdqc_devel_SUMMARY=${libpasswdqc0_SUMMARY}
 libpasswdqc_devel_CONTENTS="
-  etc/passwdqc.conf
 	usr/include/*.h
 	usr/lib/libpasswdqc.dll.a
   usr/share/man/man3/*
-  usr/share/man/man5/*
 "
 
 src_compile()
